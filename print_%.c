@@ -1,6 +1,7 @@
 #include "main.h"
-/*
- * print_37 - print % a string
+/**
+ * print_37 - function print % as a string.
+ *
  * Return: integr
  */
 
