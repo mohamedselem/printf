@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 /**
  * printf_string - print A string.
  * @val: argument.
@@ -18,13 +19,13 @@ int printf_string(va_list val)
 		length = _strlen(str);
 		for (i = 0; i < length; i++)
 			_putchar(str[i]);
-		return (lenght);
+	return (length);
 	}
 	else
 	{
 		length = _strlen(str);
 		for (i = 0; i < length; i++)
 			_putchar(str[i]);
-		return (length);
 	}
+	return (length);
 }

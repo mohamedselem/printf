@@ -1,7 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
 #include "main.h"
-
+#include <stdarg.h>
 /**
  * printf_char - print A char C
  * @val: aRGUMENTS.

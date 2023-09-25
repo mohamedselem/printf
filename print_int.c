@@ -75,7 +75,7 @@ int print_dec(va_list args)
 		while (num / 10 != 0)
 		{
 			exp = exp * 10;
-			num = num / 10
+			num = num / 10;
 		}
 			num = n;
 		while (exp > 0)
