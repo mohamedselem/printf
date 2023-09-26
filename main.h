@@ -1,8 +1,16 @@
 #ifndef MAIN_H
 #define MAIN_H
-
-#include <stdarg.h>
+#include <stdlib.h>
+#include <stadarg.h>
 #include <stdio.h>
+#include <unistd.h>
+#include <limits.h>
+
+typedef struct format
+{
+	char *id;
+	int (*f)();
+} match;
 
 int printf_char(va_list val);
 int _putchar(char c);
