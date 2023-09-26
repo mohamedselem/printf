@@ -6,6 +6,12 @@
 #include <limits.h>
 #include <stdarg.h>
 
+/**
+ * struct format - it is a struct
+ *
+ * @id : first member
+ * @f : sec member
+ */
 typedef struct format
 {
 	char *id;
